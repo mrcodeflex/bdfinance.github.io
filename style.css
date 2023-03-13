@@ -474,6 +474,12 @@ Mobile devices
 ******/
 
 @media (max-width:768px) {
+    .pop-box {
+    width: 70%;
+    margin: 0 auto;
+
+}
+    
    .header-top img{
         max-width: 150px;
        text-align: center
@@ -524,6 +530,7 @@ Small screens, laptops
  
     
 }
+
 
 
 
