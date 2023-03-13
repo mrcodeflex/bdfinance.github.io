@@ -26,7 +26,6 @@
 
     <!--  css link-->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
 
 
 </head>
@@ -73,16 +72,16 @@
         <div class="header-top container-fluid ">
             <div class="container">
                 <div class="row d-flex align-items-center">
-                    <div class="col-sm-12 col-md-2">
-                        <img src="assets/images/logo1.png" alt="logo one " class="logo-one">
+                    <div class="col-sm-12 sm-text-center col-md-2">
+                        <img src="assets/images/logo1.png" alt="logo one " class="logo-one ">
                     </div>
-                    <div class="col-md-4 small-none">
+                    <div class="col-md-4 small-none ">
 
                     </div>
                     <div class="col-md-4 small-none">
 
                     </div>
-                    <div class="col-md-2 small-none ">
+                    <div class="col-md-2 small-none  ">
                         <img src="assets/images/logo2.png" alt="logo two " class="logo-two">
                     </div>
                 </div>
@@ -90,65 +89,23 @@
         </div>
 
         <!--     header  nav bar -->
-
-        <!-- large device nav-->
-
-        <div class="container-fluid nav-bg">
-            <div class="container ">
-
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid small-none">
-
-                        <a class="navbar-brand" href="#"><img src="assets/images/nav-logo-1.svg" alt="nav logo"></a>
-
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Tracking</a>
-                                </li>
-
-
-                            </ul>
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Login/Signup</a>
-                                </li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-
-                    <button class="btn btn-primary large-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-
-                </nav>
-
-            </div>
-        </div>
-
-        <!--    for-small device nav   -->
-
-        <div class="large-none">
-
-            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                <div class="offcanvas-header">
-                    <img src="assets/images/logo2.png" alt="title logo" class="offcanvas-title-img">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">
+      BD FINANCE 
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebarLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -161,12 +118,23 @@
 
 
                         </ul>
-                    </div>
-                </div>
-            </div>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</nav>
 
+        
+        
+        
+        
+        
+        
+        
+        
 
-        </div>
 
     </header>
 
@@ -199,8 +167,6 @@
     <!--product and service section-->
 
     <section id="product-service">
-
-
         <div class="product-section container">
             <div class="product-wrapper">
 
@@ -244,8 +210,9 @@
                 <div class="service-content">
                     <div class="service-box-wrapper">
                         <div class="row">
-                            <div class="col-md-3 col-sm-12 service-box">
-                                <div class="service-icon">
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                                <div class="service-box">
+                                    <div class="service-icon">
                                     <i class="fa-solid fa-hand-holding-dollar"></i>
                                 </div>
                                 <div class="title">
@@ -256,10 +223,12 @@
                                         DO something today that your future self will thank you for.
                                     </p>
                                 </div>
+                                </div>
 
                             </div>
-                            <div class="col-md-3 col-sm-12 service-box">
-                                <div class="service-icon">
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                               <div class="service-box">
+                                    <div class="service-icon">
                                     <i class="fa-solid fa-house"></i>
                                 </div>
                                 <div class="title">
@@ -270,10 +239,12 @@
                                         Owning a house is the most desirable things for all, it acts as your fiscal wealth and mental security, Bangladesh Finance is here to make your dream true.
                                     </p>
                                 </div>
+                               </div>
 
                             </div>
-                            <div class="col-md-3 col-sm-12 service-box">
-                                <div class="service-icon">
+                            <div class="col-md-6 col-lg-3  col-sm-12">
+                              <div class="service-box">
+                                    <div class="service-icon">
                                     <i class="fa-solid fa-car-side"></i>
                                 </div>
                                 <div class="title">
@@ -284,10 +255,12 @@
                                         Buying a car? You’re ready to make an exciting purchase, Bangladesh Finance is here to finance that will help you get the best deal on your car.
                                     </p>
                                 </div>
+                              </div>
 
                             </div>
-                            <div class="col-md-3 col-sm-12 service-box">
-                                <div class="service-icon">
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                                <div class="service-box">
+                                    <div class="service-icon">
                                     <i class="fa-solid fa-money-check-dollar"></i>
                                 </div>
                                 <div class="title">
@@ -298,6 +271,7 @@
                                         You will get what you wish to have, Bangladesh Finance is here to support you.
                                     </p>
                                 </div>
+                                </div>
 
                             </div>
 
@@ -307,7 +281,7 @@
             </div>
 
         </div>
-
+        
     </section>
 
     <!-- call to action section -->
@@ -341,11 +315,13 @@
             <div class="about-content">
                 <div class="about-box-wrapper">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12 about-box">
-                            <div class="about-icon">
-                                <i class="fa-solid fa-house"></i>
+                        <div class="col-md-4 col-sm-12 ">
+                            <div class="about-box">
+                               <div class="about-icon">
+
+                               <i class="fa-solid fa-house"></i>
                             </div>
-                            <div class="title">
+                                <div class="title">
                                 <h3>Strong Shareholding Structure</h3>
                             </div>
                             <div class="about-desc">
@@ -353,10 +329,14 @@
                                     The shareholding structure of Bangladesh Finance consists of reputed corporate houses, leading industrialist and general public. The majority shareholder of this organization is ANWAR Group.
                                 </p>
                             </div>
+                            </div>
+                            
+                            </div>
 
-                        </div>
-                        <div class="col-md-4 col-sm-12 about-box">
-                            <div class="about-icon">
+                     
+                        <div class="col-md-4 col-sm-12 ">
+                           <div class="about-box">
+                                <div class="about-icon">
 
                                 <i class="fa-solid fa-trophy"></i>
                             </div>
@@ -368,10 +348,13 @@
                                     Awarded AA Credit Rating, which reflects our strong capacity to meet financial promises ensuring high safety to depositors and investors.
                                 </p>
                             </div>
+                           </div>
 
                         </div>
-                        <div class="col-md-4 col-sm-12 about-box">
-                            <div class="about-icon">
+                        <div class="col-md-4 col-sm-12 ">
+                           
+                            <div class="about-box">
+                                <div class="about-icon">
                                 <i class="fa-solid fa-building-user"></i>
                             </div>
                             <div class="title">
@@ -382,6 +365,7 @@
                                     Innovative savings and credit facilities,capital market and structured finance services and corporate advisory.
                                 </p>
                             </div>
+                            </div>
 
                         </div>
 
@@ -389,6 +373,8 @@
                 </div>
             </div>
         </div>
+        
+        
     </section>
 
     <!--counter section -->
@@ -459,66 +445,67 @@
                 <div class="news-section-slider">
                     <div class="news-slider">
                         <div>
-                        <img src="assets/images/news-slider-1.webp" alt="news-slider">
-                        <h2>
-                        <a href="#"> প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্টে বাংলাদেশ ফিন্যান্সের অনুদান</a></h2>
+                            <img src="assets/images/news-slider-1.webp" alt="news-slider">
+                            <h2>
+                                <a href="#"> প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্টে বাংলাদেশ ফিন্যান্সের অনুদান</a>
+                            </h2>
                         </div>
-                        
+
                         <div>
-                        <img src="assets/images/news-slider-2.png" alt="news-slider">
-                        <h2>
-                        <a href="#"> ‘নগদ’-এর মাধ্যমে ক্ষুদ্র সঞ্চয়কারীর জন্য নতুন সেবা নিয়ে এল বাংলাদেশ ফাইন্যান্স</a>
-                        </h2>
+                            <img src="assets/images/news-slider-2.png" alt="news-slider">
+                            <h2>
+                                <a href="#"> ‘নগদ’-এর মাধ্যমে ক্ষুদ্র সঞ্চয়কারীর জন্য নতুন সেবা নিয়ে এল বাংলাদেশ ফাইন্যান্স</a>
+                            </h2>
                         </div>
-                        
+
                         <div>
-                        <img src="assets/images/news-slider-2.png" alt="news-slider">
-                        <h2>
-                        <a href="#"> Bangladesh Finance shifts its Chattogram Branch</a>
-                        </h2>
+                            <img src="assets/images/news-slider-2.png" alt="news-slider">
+                            <h2>
+                                <a href="#"> Bangladesh Finance shifts its Chattogram Branch</a>
+                            </h2>
                         </div>
-                        
-                    
+
+
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
-    
-<!--    footer section css-->
 
-<footer>
-    <div class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                           <div class="title">
-                               <h3>Contact us</h3>
-                           </div>
-                           
-                            <div class="address-ftr">
-                                <ul class="list-icons">
+    <!--    footer section css-->
+
+    <footer>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="title">
+                                    <h3>Contact us</h3>
+                                </div>
+
+                                <div class="address-ftr">
+                                    <ul class="list-icons">
                                         <li><i class="fa fa-map-marker "></i>27 Dilkusha(2nd Floor), Dhaka 1000.</li>
-                                        
+
                                         <li><i class="fa fa-phone "></i>16727</li>
-                                        
+
                                         <li><i class="fa fa-envelope"></i>info@example.com</li>
-                                       
+
                                     </ul>
 
-                           </div>
-                           
-                        </div>
-                         <div class="col-md-6">
-                           <div class="title">
-                               <h3>Connect With Us</h3>
-                           </div>
-                          
-                           <div class="social">
-                               <ul class="social-links d-flex">
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="title">
+                                    <h3>Connect With Us</h3>
+                                </div>
+
+                                <div class="social">
+                                    <ul class="social-links d-flex">
                                         <li class="facebook">
                                             <a target="_blank" href="#">
                                                 <i class="fa-brands fa-facebook-f"></i>
@@ -535,71 +522,68 @@
                                                 </i>
                                             </a>
                                         </li>
-                                        <li class="instagram">
-                                            <a target="_blank" href="#">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </li>
                                     </ul>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                      <div class="row">
-                        <div class="col-md-6">
-                           <div class="title">
-                               <h3>Our Clients</h3>
-                           </div>
-                           <div class="client-img row">
-                               <div class="col-md-6">
-                                   <img src="assets/images/logo2.png" alt="">
-                               </div>
-                               <div class="col-md-6">
-                                   <img src="assets/images/logo1.png" alt="">
-                               </div>
-                           </div>
-                           
-                        </div>
-                         <div class="col-md-6">
-                            <div class="title">
-                               <h3>Location Map</h3>
-                           </div>
-                           <div class="map">
-                                  <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=sylhet&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a><br>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        height: 100%;
-                                        width: 100%;
-                                    }
-                                </style>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        height: 100%;
-                                        width: 100%;
-                                    }
-                                </style>
+                                </div>
                             </div>
                         </div>
-                           </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="title">
+                                    <h3>Our Clients</h3>
+                                </div>
+                                <div class="client-img ">
+                                    <div class="col-md-4">
+                                        <img src="assets/images/logo2.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 mt-3">
+                                        <img src="assets/images/logo1.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="title">
+                                    <h3>Location Map</h3>
+                                </div>
+                                <div class="map">
+                                    <div class="mapouter">
+                                        <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=sylhet&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a><br>
+                                            <style>
+                                                .mapouter {
+                                                    position: relative;
+                                                    text-align: right;
+                                                    height: 100%;
+                                                    width: 100%;
+                                                }
+
+                                            </style>
+                                            <style>
+                                                .gmap_canvas {
+                                                    overflow: hidden;
+                                                    background: none !important;
+                                                    height: 100%;
+                                                    width: 100%;
+                                                }
+
+                                            </style>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                
             </div>
         </div>
-    </div>
-    <div class="sub-footer">
-        <div class="text-center">
-            <p>© 2023 <a href="github.com/mrcodeflex">@mrcodeflex </a>. All rights reserved.</p>
+        <div class="sub-footer">
+            <div class="text-center">
+                <p>© 2023 <a href="github.com/mrcodeflex" class="text-light">@mrcodeflex </a>. All rights reserved.</p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 
     <!--        jquery -->
@@ -621,6 +605,7 @@
         $("#close").click(function() {
             $("#welcomepopUp").css("display", "none");
         });
+
     </script>
 
     <!--   product slider jquery function /slick slider-->
@@ -657,6 +642,7 @@
                 ]
             });
         });
+
     </script>
 
 
@@ -697,19 +683,20 @@
                 a = 1;
             }
         });
-    </script>
-<!-- news slider jquery function /slick slider-->
 
-<script>
-    $(document).ready(function() {
+    </script>
+    <!-- news slider jquery function /slick slider-->
+
+    <script>
+        $(document).ready(function() {
             $('.news-slider').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 autoplay: true,
-                dots:true,
+                dots: true,
 
                 responsive: [
-                    
+
                     {
                         breakpoint: 768,
                         settings: {
@@ -727,7 +714,10 @@
                 ]
             });
         });
+
     </script>
+    
+
 </body>
 
 </html>

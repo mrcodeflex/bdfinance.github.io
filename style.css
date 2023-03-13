@@ -33,8 +33,20 @@ img {
     max-width: 100%;
     max-height: 100%
 }
+.title h2{
+    font-size: 30px;
+    line-height: 30px;
+    color: #0267af;
+    font-weight: 700;
+    padding: 30px 0
+}
 
-
+.sub-title p {
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    font-weight: 700;
+}
 /*==========
 popup section css
 ==========*/
@@ -80,7 +92,7 @@ popup section css
 header section css
 =========*/
 .nav-bg {
-    background-color: blue
+    background-color: #0367af;
 }
 
 
@@ -98,11 +110,13 @@ product & service section css
 #product-service{
     background-image: url(assets/images/slider-bg.png);
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding: 20px 0 40px 0;
 }
 
 .prdct-slider-content{
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .product-slider .prdct-slider-content img {
@@ -170,28 +184,350 @@ slider button css
 /*==========
 service section 
 ==========*/
-
-.service-box{
-    text-align: center
+.service-box {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border: 2px solid #0367AF;
+    border-radius: 35px;
+    margin: 5px 0;
+    
+}
+.service-box:hover {
+    background-color: #0367AF;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 35px 35px 35px 35px;
+    transition-delay: 0.05s;
+    transition-duration: .5s;
 }
 
 
+.service-box:hover h3{
+    color: #fff
+    
+}
+.service-box:hover .service-icon{
+    color: #fff
+    
+}
+.service-box:hover .service-desc{
+    color: #fff
+    
+}
+
+.service-icon{
+        font-size: 30px;
+    
+    padding: 10px 0;
+}
+.service-box .title h3{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+}
+.service-desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333
+}
+
+
+
+/*===========
+cta section
+==========*/
+.cta{
+    background-color: #0367af;
+  margin: 20px 0
+}
+.cta .title h2{
+    color: #fff
+}
+.cta-btn {
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 20px;
+    
+}
+.cta-btn:hover{
+background: #000;
+    color: #fff;
+    transition-duration: .3s
+}
 
 
 
 /*==========
 About section css
 ============*/
-
-
-
-.about-box{
-    text-align: center
+.about{
+    background-color: #0367af;
+    padding: 40px;
+    
 }
 
+
+.about-wrapper{
+        margin: 80px auto;
+}
+.about .title h2{
+    color: #fff
+}
+.about-box{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border: 2px solid #0367AF;
+    border-radius: 35px;
+
+}
+.about-icon{
+        font-size: 50px;
+    color: #0367af;
+    padding: 10px 0;
+}
+
+.about-box .title h3{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    color: #0367af;
+}
+.about-desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333;
+}
 
 /*=========
 counter section
 ==========*/
+
+.counter-sec {
+    background: #0367af;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+#counter-box {
+    border-right: 1px solid #fff
+}
+#counter-box:nth-last-child(1){
+    border: none;
+}
+
+#counter-box h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+}
+#counter-box p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+}
+
+/*=========
+news and publication section
+==========*/
+
+.news-publication{
+    padding: 30px 0;
+    
+}
+.news-wrapper .title h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #0267af;
+    padding: 20px 0;
+}
+
+.news-slider{
+    padding: 40px;
+}
+.news-slider img{
+margin:  10px;
+    max-width: 95%;
+}
+.news-slider h2 a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #23527c;
+}
+
+/*=========
+slick slider css 
+=========*/
+
+.slick-dots {
+    bottom: 10px
+}
+
+.slick-dots li button:before{
+    background-color: #333;
+    border-radius: 25px;
+    width: 10px;
+    height: 10px
+}
+
+/*==========
+footer section 
+=========*/
+
+.main-footer{
+    background-color: #f0eeee;
+    padding: 20px 0;
+    
+}
+.main-footer .title h3{
+    color: #0367af;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px
+}
+
+.main-footer .list-icons{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.main-footer .list-icons li i {
+    margin-right: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0367af;
+}
+.main-footer .social-links {
+    margin: 20px 0;
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+
+}
+
+.main-footer .social-links li {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 25%;
+}
+
+
+.main-footer .social-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-footer .social-links .facebook {
+    background-color: #3B5998
+}
+.main-footer .social-links .linkedin {
+    background-color: #0077B5
+}
+
+.main-footer .social-links .youtube {
+    background-color: #ff0000
+}
+
+
+.sub-footer{
+    background-color: #0367af;
+    padding: 20px
+}
+
+
+
+/*==========
+responsive csss
+==========*/
+
+
+/***********
+Responsive css
+***********/
+
+
+
+/*******
+Mobile devices
+******/
+
+@media (max-width:480px) {
+   
+
+
+}
+
+/*******
+ iPads, Tablets devices
+******/
+
+@media (max-width:768px) {
+   .header-top img{
+        max-width: 150px;
+       text-align: center
+            
+    }
+    .small-none{
+        display: none
+    }
+    
+    .cta .title h2{ padding: 5px 0;
+    }
+    .cta-btn{
+        margin: 5px 0
+    }
+    #counter-box{
+        border-right: none;
+    }
+    
+    footer{
+        text-align: center
+    }
+    footer .client-img img {
+        max-width: 100px
+    }
+    footer .social-links {
+        justify-content: center
+    }
+}
+
+
+
+/*============
+990 px max 
+===========*/
+@media (max-width:990px) {
+
+ 
+}
+
+
+
+/*******
+Small screens, laptops
+******/
+
+@media (max-width:1024px) {
+    
+ 
+    
+}
+
+
+
+
+
 
 
